@@ -8,8 +8,8 @@
 }
 
 .header-bar {
-  height: 90vh;
-  background: url(../../images/about/background.jpg);
+  height: 100vh;
+  background: url(../../images/home/logo.jpg);
   background-size: cover;
 }
 
@@ -162,9 +162,8 @@ a {
   padding: 10px;
 }
 .title h1, .title h3 {
-  color: black;
+  color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.24);
-  font-size: 36px;
 }
 
 .home {
@@ -172,6 +171,20 @@ a {
 }
 
 /* Button Styles */
+.play {
+  background-color: rgb(239, 17, 35);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.play:hover {
+  background-color: teal;
+}
+
 .more {
   background-color: white;
   color: #f2f2f2;
@@ -182,7 +195,6 @@ a {
   text-decoration: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   color: black;
-  background-color: pink;
 }
 .more:hover {
   background-color: teal;
