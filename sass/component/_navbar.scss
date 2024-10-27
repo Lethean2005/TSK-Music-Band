@@ -1,6 +1,6 @@
 .header-bar {
-    height: 100vh;
-    background: url(../../images/home/logo.jpg);
+    height: 90vh;
+    background: url(../../images/about/background.jpg);
     background-size: cover;
   }
   header {
@@ -120,26 +120,20 @@ a {
   text-align: center;
   padding: $padding-small;
   h1, h3 {
-    color: $dark-text-color;
+    color: $light-text-color;
     text-shadow: 2px 2px 4px $shadow-color;
+    font-size: 36px;
   }
 }
   .home{
     border-bottom: 3px solid orange;
   }
   /* Button Styles */
-  .play {
-    @include button-style(rgb(239, 17, 35), $dark-text-color, $padding-small 25px);
-    box-shadow: $shadow-color 0px 3px 8px;
-    &:hover {
-      background-color: $hover-color;
-    }
-  }
 .more {
     @include button-style($dark-text-color, $light-bg-color, $padding-small 25px);
     box-shadow: $shadow-color 0px 3px 8px;
     color: $light-text-color;
-  
+    background-color: $background-bg;
   &:hover {
       background-color: $hover-color;
       color: $dark-text-color;
