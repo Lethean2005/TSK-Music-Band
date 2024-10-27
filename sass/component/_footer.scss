@@ -1,0 +1,119 @@
+footer {
+    background-color: #2f4f4f; // Dark slate gray background
+    font-family: 'Permanent Marker', cursive;
+.footer {
+    color: white;
+    padding:30px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    text-align: start;
+    .company {
+        max-width: 200px;
+        .img {
+            display: flex;
+            gap: 10px;
+            padding-bottom: 16px;
+            img {
+                border-radius: 50%;
+                width: 50px;
+                } 
+                .heading {
+                    display: flex; 
+                    h3 {
+                        margin: 0; 
+                        &.h3 {
+                            color: orange;
+                        }
+                    }
+                }
+            }
+        p {
+            font-size: 14px;
+        }
+    }
+    .navigation,
+    .quick-link,
+    .services {
+        display: flex;
+        flex-direction: column;
+        ul{
+            flex-direction: column;
+            align-items: flex-start;
+        } 
+        h3 {
+            font-size: 18px;
+            margin-bottom: 24px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            li {
+                margin-bottom: 8px;
+                // margin-top: 10px;
+                line-height: 0;
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 14px; 
+                    &:hover {
+                        border-bottom: 2px solid white;
+                    }
+                }
+            }
+        }
+    }
+} 
+.content-footer {
+        text-align: center;
+        .footer-content {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 30px;
+            align-items: center;
+            padding: $padding-small;
+            .footer-location,
+            .footer-contact,
+            .footer-email {
+                color: white;
+                font-size: 16px;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                i {
+                    font-size: 18px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+                .footer-social {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    a {
+                        color: white;
+                        font-size: 20px;
+                        text-decoration: none;
+                        img {
+                            width: 40px;
+                        }
+                        .instagram {
+                            margin-bottom: 5px;
+                        }
+                    }
+                }
+        }
+    hr {
+        width: 80%;
+        border: none;
+        border-top: 1px solid white;
+        margin: 20px auto;
+    }
+        .footer-bottom {
+            margin-top: 20px;
+            font-size: 14px;
+            color: white;
+        }
+    }
+}
+  

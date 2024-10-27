@@ -1,0 +1,15 @@
+@mixin flexbox($justify: flex-start, $align: flex-start, $gap: 0) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+@mixin button-style($bg-color, $color, $padding: 10px 20px, $border-radius: 5px) {
+    background-color: $bg-color;
+    color: $color;
+    padding: $padding;
+    border-radius: $border-radius;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
