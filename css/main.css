@@ -7,11 +7,14 @@
   font-family: "Permanent Marker", cursive;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 800px) {
   .column {
     max-width: 45%;
   }
 }
+=======
+>>>>>>> 3e7deee8411c059c4526cf42e934290e9f05f5ef
 .container {
   background-color: black;
   color: white;
@@ -67,9 +70,12 @@
   margin-bottom: 20px;
   text-decoration: underline;
 }
+<<<<<<< HEAD
 .popular-songs-section .popular-songs-list h2:hover {
   color: orange;
 }
+=======
+>>>>>>> 3e7deee8411c059c4526cf42e934290e9f05f5ef
 .popular-songs-section .popular-songs-list ul {
   display: flex;
   flex-direction: column;
@@ -122,6 +128,7 @@ li iframe {
   margin-left: 10px;
 }
 
+<<<<<<< HEAD
 .gallery {
   text-align: center;
   padding: 20px;
@@ -174,6 +181,8 @@ li iframe {
   margin: 0;
 }
 
+=======
+>>>>>>> 3e7deee8411c059c4526cf42e934290e9f05f5ef
 .header-bar {
   height: 100vh;
   background: url(../../images/home/logo.jpg);
