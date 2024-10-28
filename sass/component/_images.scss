@@ -1,0 +1,45 @@
+.gallery {
+    text-align: center;
+    padding: 20px;
+
+    h1 {
+        text-decoration: underline;
+        font-size: 2em;
+        margin-bottom: 10px;
+        &:hover{
+            color: orange;
+        }
+    }
+
+    p {
+        font-size: 1em;
+        $color:black;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 20px 0;
+
+        .column {
+            flex: 1;
+            max-width: 30%;
+            padding: 10px;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+            // video{
+            //     border-radius: 20px;
+            // }
+        }
+    }
+}
+
+
+
+
+
+
