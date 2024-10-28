@@ -7,6 +7,113 @@
   font-family: "Permanent Marker", cursive;
 }
 
+.container {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+.container .item {
+  max-width: 300px;
+}
+.container .item img {
+  width: 50px;
+  height: 50px;
+}
+.container .item h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+.container .item h2 .highlight {
+  color: #3498db;
+  text-decoration: underline;
+}
+.container .item p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ccc;
+}
+.container .item:nth-child(2) h2 .highlight {
+  display: block;
+  font-size: 20px;
+}
+
+.music {
+  display: flex;
+}
+
+.popular-songs-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: url(../../images/home/channel.jpg);
+  background-size: cover;
+  color: white;
+}
+.popular-songs-section .popular-songs-list {
+  width: 50%;
+}
+.popular-songs-section .popular-songs-list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+.popular-songs-section .popular-songs-list ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  list-style: none;
+}
+.popular-songs-section .popular-songs-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.popular-songs-section .popular-songs-list li .song-rank {
+  color: red;
+  font-size: 24px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+.popular-songs-section .popular-songs-list li img {
+  width: 60px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 15px;
+}
+.popular-songs-section .popular-songs-list li .song-title {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.popular-songs-section .artist-image {
+  width: 50%;
+  padding: 30px;
+  margin-top: 50px;
+}
+.popular-songs-section .artist-image img {
+  width: 100%;
+  height: auto;
+}
+
+li iframe {
+  border-radius: 20px;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.titles p {
+  margin-left: 10px;
+}
+
 .header-bar {
   height: 100vh;
   background: url(../../images/home/logo.jpg);

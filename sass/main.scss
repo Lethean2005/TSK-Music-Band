@@ -8,5 +8,8 @@
     list-style: none;
     font-family: 'Permanent Marker', cursive;
 }
+@import"./component/container";
+@import"./component/popular";
+@import"./component/matric";
 @import"./component/navbar";
 @import"component/footer";
