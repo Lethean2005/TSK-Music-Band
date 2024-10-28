@@ -7,6 +7,161 @@
   font-family: "Permanent Marker", cursive;
 }
 
+.container {
+  display: flex;
+  margin-left: 18vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+input[type=first-name], input[type=last-name], input[type=email] {
+  outline: none;
+  background-color: rgba(192, 226, 255, 0.582);
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+}
+input[type=first-name] {
+  margin-top: 30px;
+  width: 32%;
+}
+input[type=last-name] {
+  margin-left: 20px;
+  width: 32%;
+}
+input[type=email] {
+  width: 67%;
+  margin-top: 15px;
+}
+
+textarea {
+  outline: none;
+  background-color: rgba(192, 226, 255, 0.582);
+  border-radius: 10px;
+  margin-top: 15px;
+  border: none;
+}
+
+.btn {
+  margin-top: 15px;
+  width: 20%;
+  padding: 8px;
+  border-radius: 20px;
+  border: 2px solid rgb(223, 223, 223);
+  background-color: rgb(86, 197, 192);
+  color: white;
+}
+
+.card-img {
+  margin-top: 20px;
+  margin-right: 15vh;
+  padding: 10px;
+  position: relative;
+  width: 350px;
+  height: 300px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-he {
+  background-color: rgb(40, 62, 77);
+  padding: 15px;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  height: 100%;
+  border: 2px solid rgb(223, 223, 223);
+}
+.card-he p {
+  font-size: 0.9em;
+  margin-bottom: 50px;
+}
+
+.card {
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+}
+.card p {
+  margin: 50px;
+}
+
+.input-email input[type=mail] {
+  padding: 10px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+.input-email button {
+  padding: 10px;
+  background-color: rgb(17, 170, 170);
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.material-icons {
+  margin-right: 35px;
+}
+
+.card1,
+.card2,
+.card3 {
+  border-radius: 20px;
+  width: 25%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(223, 223, 223);
+}
+
+.card1 {
+  margin-right: 10vh;
+  background-color: rgb(168, 200, 206);
+  color: white;
+}
+
+.card2 {
+  background-color: rgb(173, 191, 197);
+  color: white;
+}
+
+.card3 {
+  margin-left: 10vh;
+  background-color: rgb(253, 253, 253);
+  color: grey;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.img-map {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border-radius: 20px;
+}
+
 .header-bar {
   height: 100vh;
   background: url(../../images/home/logo.jpg);
