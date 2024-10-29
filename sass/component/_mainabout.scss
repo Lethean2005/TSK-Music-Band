@@ -1,0 +1,197 @@
+.head-bar {
+    height: 100vh;
+    background: url(../../images/about/background.jpg);
+    background-size: cover;
+}
+.titles {
+    margin-top: 50px;
+    text-align: center;
+    padding: $padding-small;
+    h1, h3 {
+      color: $dark-text-color;
+      text-shadow: 2px 2px 4px blue;
+    }
+}
+.mores {
+    @include button-style(pink, $light-bg-color, $padding-small 25px);
+    box-shadow: $shadow-color 0px 3px 8px;
+    color: $light-text-color;
+  
+  &:hover {
+      background-color: $hover-color;
+      color: $dark-text-color;
+      transition: background-color 0.3s ease;
+    }
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    .main-top{
+        background-color: $darkslategray;
+        height: 70vh;
+        display: flex;
+        flex-direction: row;
+        color: $dark-text-color;
+        .main-intro{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .history{
+                border: 2px solid orange;
+                background-color:transparent;
+                width: 80%;
+                height: 350px;
+                padding: 10px;
+                box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+                &:hover{
+                    border: 2px solid blue;
+                }
+                p{
+                    margin-top: 30px;
+                }
+            }
+        }
+        .main-team{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .influen{
+                border: 2px solid orange;
+                width: 80%;
+                height: 350px;
+                padding: 10px;
+                &:hover{
+                    border: 2px solid blue;
+                }
+                p{
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+.main-view-content{
+    background-color: darkslategray;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    .main-about{
+        text-align: center;
+        img{
+            height: 90px;
+            width: 90px;
+            &:hover{
+                background-color: rgb(243, 24, 24); 
+                border: 3px solid orange;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+.instrument{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .instrument, h2{
+        
+        text-align: center;
+        background-color:darkolivegreen;
+        border-radius: 20px;
+        color: white;
+        padding: 5px;
+        &:hover{
+            background-color: teal;
+            color:orange; 
+            border: 3px solid orange;
+        }
+        
+    }
+    .main-video{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        .video1{
+            display: flex;
+            flex-direction: column;
+            width: 270px;
+            height: 450px;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        }
+    }
+}
+
+
+.comp-sponsor{
+    height: 35vh;
+    background-color:darkslategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+        color: orange;
+        text-decoration: underline;
+        text-align: center;
+        margin-bottom: 50px;
+        &:hover{
+            color: blue;
+        }
+    }
+    .main-sponsor{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .sponsor img{
+            height: 100px;
+            width: 90px;
+        }
+    }
+}
+.main-member{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    .member h1{
+        text-align: center;
+        background-color: inlined black;
+        &:hover{
+            color: orange;
+            text-decoration: underline;
+        }
+    }
+    .member0{
+        display: flex;
+        justify-content: space-evenly;
+        .member1{
+            border-radius: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            width: 270px;
+            height: 450px;
+            margin-top: 40px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            &:hover{
+                border: 2px solid orange;
+            }
+            img{
+                border-radius:20px 20px 0px 0px;
+            }
+            
+        }
+    }
+}

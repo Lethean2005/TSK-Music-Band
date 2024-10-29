@@ -7,6 +7,209 @@
   font-family: "Permanent Marker", cursive;
 }
 
+.head-bar {
+  height: 100vh;
+  background: url(../../images/about/background.jpg);
+  background-size: cover;
+}
+
+.titles {
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+}
+.titles h1, .titles h3 {
+  color: white;
+  text-shadow: 2px 2px 4px blue;
+}
+
+.mores {
+  background-color: pink;
+  color: #f2f2f2;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: black;
+}
+.mores:hover {
+  background-color: teal;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.main .main-top {
+  background-color: darkslategray;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.main .main-top .main-intro {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .main-top .main-intro .history {
+  border: 2px solid orange;
+  background-color: transparent;
+  width: 80%;
+  height: 350px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.main .main-top .main-intro .history:hover {
+  border: 2px solid blue;
+}
+.main .main-top .main-intro .history p {
+  margin-top: 30px;
+}
+.main .main-top .main-team {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .main-top .main-team .influen {
+  border: 2px solid orange;
+  width: 80%;
+  height: 350px;
+  padding: 10px;
+}
+.main .main-top .main-team .influen:hover {
+  border: 2px solid blue;
+}
+.main .main-top .main-team .influen p {
+  margin-top: 30px;
+}
+
+.main-view-content {
+  background-color: darkslategray;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.main-view-content .main-about {
+  text-align: center;
+}
+.main-view-content .main-about img {
+  height: 90px;
+  width: 90px;
+}
+.main-view-content .main-about img:hover {
+  background-color: rgb(243, 24, 24);
+  border: 3px solid orange;
+  border-radius: 50%;
+}
+
+.instrument {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.instrument h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.instrument .instrument, .instrument h2 {
+  text-align: center;
+  background-color: darkolivegreen;
+  border-radius: 20px;
+  color: white;
+  padding: 5px;
+}
+.instrument .instrument:hover, .instrument h2:hover {
+  background-color: teal;
+  color: orange;
+  border: 3px solid orange;
+}
+.instrument .main-video {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.instrument .main-video .video1 {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 450px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.comp-sponsor {
+  height: 35vh;
+  background-color: darkslategray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.comp-sponsor h1 {
+  color: orange;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.comp-sponsor h1:hover {
+  color: blue;
+}
+.comp-sponsor .main-sponsor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.comp-sponsor .main-sponsor .sponsor img {
+  height: 100px;
+  width: 90px;
+}
+
+.main-member {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-member .member h1 {
+  text-align: center;
+  background-color: inlined black;
+}
+.main-member .member h1:hover {
+  color: orange;
+  text-decoration: underline;
+}
+.main-member .member0 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-member .member0 .member1 {
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 450px;
+  margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.main-member .member0 .member1:hover {
+  border: 2px solid orange;
+}
+.main-member .member0 .member1 img {
+  border-radius: 20px 20px 0px 0px;
+}
+
 .header-bar {
   height: 100vh;
   background: url(../../images/home/logo.jpg);
@@ -163,7 +366,7 @@ a {
 }
 .title h1, .title h3 {
   color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.24);
+  text-shadow: 2px 2px 4px orange;
 }
 
 .home {
