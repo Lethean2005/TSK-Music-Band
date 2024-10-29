@@ -74,19 +74,22 @@
 }
 .main-view-content{
     background-color: darkslategray;
-    height: 25vh;
+    height: 30vh;
     display: flex;
-    align-items: center;
+    // align-items: center;
     justify-content: space-around;
     color: white;
     .main-about{
         text-align: center;
+        h1{
+            margin-bottom: 200px;
+        }
+        text-align: center;
         img{
-            height: 90px;
-            width: 90px;
+            height: 60px;
+            width: 60px;
             &:hover{
-                background-color: rgb(243, 24, 24); 
-                border: 3px solid orange;
+                border: 2px solid orange;
                 border-radius: 50%;
             }
         }

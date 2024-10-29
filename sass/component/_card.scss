@@ -74,6 +74,7 @@ textarea {
 }
 
 .card-img {
+  z-index: -1;
   margin-right: 15vh;
   padding: 10px;
   position: relative;
@@ -134,11 +135,14 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  i{
+    margin-top: 50px;
+  }
+  .material-icons {
+    margin-right: 35px;
+  }
 }
 
-.material-icons {
-  margin-right: 35px;
-}
 
 .card1,
 .card2,
