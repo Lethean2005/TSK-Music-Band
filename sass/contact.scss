@@ -1,0 +1,13 @@
+@import "mixin/group-mixin";
+@import"component/veriable";
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Permanent Marker', cursive;
+}
+@import "./component/card"; 
+@import"./component/navbar";
+@import"component/footer";
