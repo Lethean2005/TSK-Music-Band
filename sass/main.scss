@@ -8,10 +8,16 @@
     list-style: none;
     font-family: 'Permanent Marker', cursive;
 }
+<<<<<<< HEAD
 @import"./mixin/responsive";
 @import"./component/container";
 @import"./component/popular";
 @import"./component/images";
 @import"./component/follow";
+=======
+@import"./component/container";
+@import"./component/popular";
+@import"./component/matric";
+>>>>>>> 3e7deee8411c059c4526cf42e934290e9f05f5ef
 @import"./component/navbar";
 @import"component/footer";
