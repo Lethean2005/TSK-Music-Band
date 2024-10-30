@@ -8,6 +8,7 @@
     list-style: none;
     font-family: 'Permanent Marker', cursive;
 }
+@import "./mixin/responsive-about";
 @import "./component/mainabout";
 @import"./component/navbar";
 @import"component/footer";
