@@ -464,6 +464,19 @@ li iframe {
   height: auto;
 }
 
+.videos h1 {
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+.videos h1:hover {
+  color: orange;
+}
+
+.videos p {
+  text-align: center;
+}
+
 .containers {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

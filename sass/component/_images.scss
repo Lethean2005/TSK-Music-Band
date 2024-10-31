@@ -37,7 +37,18 @@
 }
 
 
-
+.videos h1{
+   margin-top: 10px;
+   text-align: center;
+   text-decoration: underline;
+   &:hover{
+    color: orange;
+   }
+   
+}
+.videos p{
+    text-align: center;
+}
 .containers {
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
