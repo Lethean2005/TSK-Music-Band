@@ -1,0 +1,282 @@
+@media (max-width: 768px){
+    header{
+        height: 20vh;
+        width: 100%;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        .main-top{
+            height: 190vh;
+            display: flex;
+            flex-direction: column;
+            .main-intro{
+                .history{
+                    box-shadow: none;
+                    border: none;
+                    &:hover{
+                        display: none;
+                    }
+                    h1{
+                        font-size: 24px;
+                    }
+                }
+            }
+            .main-team{
+                .influen{
+                    box-shadow: none;
+                    border: none;
+                    &:hover{
+                        display: none;
+                    }
+                    h1{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+    .main-view-content{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        img{
+            height: 100px;
+            width: 30px;
+        }
+    }
+    .instrument{
+        height: 280vh;
+        display: flex;
+        flex-direction: column;
+        .main-video{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 20px;
+            .video{
+                height: 50vh;
+                width: 20%;
+            }
+        }
+    }
+    .main-member{
+        height: 290vh;
+        display: flex;
+        flex-direction: column;
+        
+        .member0{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    footer{
+        height: 80vh;
+        .footer{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .content-footer{
+            display: flex;
+            flex-direction: column;
+            .footer-content{
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        .main-top{
+            height: 190vh;
+            display: flex;
+            flex-direction: column;
+            .main-intro{
+                .history{
+                    box-shadow: none;
+                    border: none;
+                    &:hover{
+                        display: none;
+                    }
+                    h1{
+                        font-size: 24px;
+                    }
+                }
+            }
+            .main-team{
+                .influen{
+                    box-shadow: none;
+                    border: none;
+                    &:hover{
+                        display: none;
+                    }
+                    h1{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+    .main-view-content{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .instrument{
+        height: 280vh;
+        display: flex;
+        flex-direction: column;
+        .main-video{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 20px;
+            .video{
+                height: 50vh;
+                width: 20%;
+            }
+        }
+    }
+    .main-member{
+        height: 290vh;
+        display: flex;
+        flex-direction: column;
+        
+        .member0{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    footer{
+        height: 60vh;
+    }
+}
+
+@media (max-width: 768px){
+    .header-bar{
+        width: 100%;
+    }
+    header{
+        height: 20vh;
+        width: 100%;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        .main-top{
+            height: 190vh;
+            display: flex;
+            flex-direction: column;
+            .main-intro{
+                .history{
+                    box-shadow: none;
+                    border: none;
+                    &:hover{
+                        display: none;
+                    }
+                    h1{
+                        font-size: 24px;
+                    }
+                }
+            }
+            .main-team{
+                .influen{
+                    box-shadow: none;
+                    border: none;
+                    &:hover{
+                        display: none;
+                    }
+                    h1{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+    .main-view-content{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        img{
+            height: 100px;
+            width: 30px;
+        }
+    }
+    .instrument{
+        height: 280vh;
+        display: flex;
+        flex-direction: column;
+        .main-video{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 20px;
+            .video{
+                height: 50vh;
+                width: 20%;
+            }
+        }
+    }
+    .main-member{
+        height: 290vh;
+        display: flex;
+        flex-direction: column;
+        
+        .member0{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    footer{
+        height: 90vh;
+        .footer{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .compay{
+            width: 30%;
+        }
+        .navigation{
+            width: 30%;
+        }
+        .quick-link{
+            width: 30%;
+        }
+        .services{
+            width: 30%;
+        }
+        .content-footer{
+            display: flex;
+            flex-direction: column;
+            .footer-content{
+                display: flex;
+                flex-wrap: wrap;
+                .footer-location{
+                    width: 30%;
+                }
+                .footer-contact{
+                    width: 30%;
+                }
+                .footer-email{
+                    width: 30%;
+                }
+                .footer-social{
+                    width: 30%;
+                }
+            }
+           
+        }
+    }
+}

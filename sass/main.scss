@@ -8,7 +8,9 @@
     list-style: none;
     font-family: 'Permanent Marker', cursive;
 }
-@import"./mixin/responsive";
+@import"./mixin/responsive-home";
+@import"./mixin/responsive-about";
+@import"./mixin/responsive-contact";
 @import"./component/container";
 @import"./component/popular";
 @import"./component/images";
