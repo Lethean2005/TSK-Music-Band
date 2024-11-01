@@ -1,6 +1,6 @@
 // teblate
 
-@media (max-width: 768px){
+@media (max-width: 768px) and (max-width: 1023px) {
     .titles {
         h1, h3 {
           margin-top: 50px;
@@ -61,7 +61,7 @@
         
     }
     .instrument{
-        // height: 110vh;
+        height: 110vh;
         display: flex;
         flex-direction: column;
         .main-video{
@@ -70,8 +70,8 @@
             flex-wrap: wrap;
             gap: 20px;
             .video{
-                height: 100vh;
-                width: 100%;
+                height: 50vh;
+                width: 20%;
             }
         }
     }
@@ -136,9 +136,8 @@
     }
 }
 
-
 //phone//
-@media (max-width: 480px){
+@media (max-width: 320px)and (max-width: 480px) {
     .header-bar{
         width: 100%;
     }
@@ -218,7 +217,46 @@
             align-items: center;
         }
     }
+    footer{
+        height: 90vh;
+        .footer{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .compay{
+            width: 30%;
+        }
+        .navigation{
+            width: 30%;
+        }
+        .quick-link{
+            width: 30%;
+        }
+        .services{
+            width: 30%;
+        }
+        .content-footer{
+            display: flex;
+            flex-direction: column;
+            .footer-content{
+                display: flex;
+                flex-wrap: wrap;
+                .footer-location{
+                    width: 30%;
+                }
+                .footer-contact{
+                    width: 30%;
+                }
+                .footer-email{
+                    width: 30%;
+                }
+                .footer-social{
+                    width: 30%;
+                }
+            }
+           
+        }
+    }
 }
-
-
 
