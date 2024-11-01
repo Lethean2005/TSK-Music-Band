@@ -217,46 +217,5 @@
             align-items: center;
         }
     }
-    footer{
-        height: 90vh;
-        .footer{
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
-        .compay{
-            width: 30%;
-        }
-        .navigation{
-            width: 30%;
-        }
-        .quick-link{
-            width: 30%;
-        }
-        .services{
-            width: 30%;
-        }
-        .content-footer{
-            display: flex;
-            flex-direction: column;
-            .footer-content{
-                display: flex;
-                flex-wrap: wrap;
-                .footer-location{
-                    width: 30%;
-                }
-                .footer-contact{
-                    width: 30%;
-                }
-                .footer-email{
-                    width: 30%;
-                }
-                .footer-social{
-                    width: 30%;
-                }
-            }
-           
-        }
-    }
 }
 
