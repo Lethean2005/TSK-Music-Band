@@ -23,7 +23,6 @@
         margin: 20px 0;
 
         .column {
-            // z-index: -1;
             flex: 1;
             max-width: 30%;
             padding: 10px;
@@ -32,39 +31,42 @@
                 width: 100%;
                 height: auto;
             }
+            // video{
+            //     border-radius: 20px;
+            // }
         }
     }
 }
 
+//our video//
 
-.videos h1{
-   margin-top: 10px;
-   text-align: center;
-   text-decoration: underline;
-   &:hover{
-    color: orange;
-   }
-   
+.videos{
+    h1 {
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    text-decoration: underline;
+    &:hover{
+        color: orange;
+    }
 }
-.videos p{
+}
+p{
     text-align: center;
 }
-.containers {
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    gap: 10px;
-    // max-width: 600px;
-    margin: auto;
-    padding: 50px;
-    margin-left: 30px;
+  .description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
   }
-//   .thumbnail {
-//     position: relative;
-//     width: 100%;
-//     padding-top: 56.25%; /* 16:9 Aspect Ratio */
-//     background-color: #ccc;
-//     overflow: hidden;
-//   }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 40px;
+  }
   .thumbnail img {
     position: absolute;
     top: 0;
@@ -73,12 +75,30 @@
     height: 100%;
     object-fit: cover;
   }
+
   .title {
     text-align: center;
     font-size: 14px;
     margin-top: 5px;
+}
+
+
+@media (max-width: 480px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
   }
 
+  /* Tablet layout (2 columns) */
+  @media (min-width: 600px) and (max-width: 1023px) {
+    .container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
 
-
-
+  /* Laptop and larger screens (3 columns) */
+  @media (min-width: 1024px) {
+    .container {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
