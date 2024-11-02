@@ -5,12 +5,6 @@
     header{
         padding: 1px;
     }
-    .title{
-        width: 90%;
-        h1{
-           margin-top: 50px; 
-        }
-    }
     .contain{
       display: flex;
       flex-direction: column;
@@ -18,17 +12,55 @@
     .artist-image{
       display: none;
     }
-    header{
-      padding: 10px;
+  .sign-in{
+    display: none;
+  }
+  .sw,.sb{
+    font-size:larger;
+  }
+  footer{
+    height: 90vh;
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
     }
+    .compay{
+        width: 30%;
+    }
+    .navigation{
+        width: 30%;
+    }
+    .quick-link{
+        width: 30%;
+    }
+    .services{
+        width: 30%;
+    }
+    .content-footer{
+        display: flex;
+        flex-direction: column;
+        .footer-content{
+            display: flex;
+            flex-wrap: wrap;
+            .footer-location{
+                width: 30%;
+            }
+            .footer-contact{
+                width: 30%;
+            }
+            .footer-email{
+                width: 30%;
+            }
+            .footer-social{
+                width: 30%;
+            }
+        }
+       
+    }
+  }
 }
 
 @media (max-width: 768px){
-  .title{
-    width: 90%;
-    h1{
-       margin-top: 60px; 
-    }
-  }
 }
 

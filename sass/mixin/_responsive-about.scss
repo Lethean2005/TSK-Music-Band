@@ -1,16 +1,11 @@
 // teblate
 
 @media (max-width: 768px) and (max-width: 1023px) {
-    .titles {
-        h1, h3 {
-          margin-top: 50px;
-        }
-    }
     .header-bar{
         width: 100%;
     }
     header{
-        height: 20vh;
+        height: 10vh;
         width: 100%;
     }
     .main{
@@ -136,86 +131,20 @@
     }
 }
 
-//phone//
-@media (max-width: 320px)and (max-width: 480px) {
-    .header-bar{
-        width: 100%;
+@media (min-width: 320px)and (max-width:480px){
+    .get-start{
+        display: none;
     }
-    header{
-        height: 20vh;
-        width: 100%;
-    }
-    .main{
-        display: flex;
-        flex-direction: column;
-        .main-top{
-            height: 190vh;
-            display: flex;
-            flex-direction: column;
-            .main-intro{
-                .history{
-                    box-shadow: none;
-                    border: none;
-                    &:hover{
-                        display: none;
-                    }
-                    h1{
-                        font-size: 24px;
-                    }
-                }
-            }
-            .main-team{
-                .influen{
-                    box-shadow: none;
-                    border: none;
-                    &:hover{
-                        display: none;
-                    }
-                    h1{
-                        font-size: 24px;
-                    }
-                }
-            }
-        }
-    }
-    .main-view-content{
-        height: 100vh;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        .main-about{
-            width: 50%;
-            img{
-                height: 50px;
-                width: 40px;
-            }
-        }
-        
-    }
-    .instrument{
-        height: 400vh;
-        display: flex;
-        flex-direction:column;
-        .main-video{
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            .video1{
-                width: 20%;
-            }
-        }
-    }
-    .main-member{
-        height: 290vh;
-        display: flex;
-        flex-direction: column;
-        
-        .member0{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-    }
+  .sign-in{
+    display: none;
+  }
+  .sw,.sb{
+    font-size:larger;
+  }
+  .nav-bar{
+    margin-top: 10px;
+  }
+  nav{
+   margin-top: 10px;
+  }
 }
-

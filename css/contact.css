@@ -14,12 +14,6 @@
   header {
     padding: 1px;
   }
-  .title {
-    width: 90%;
-  }
-  .title h1 {
-    margin-top: 50px;
-  }
   .contain {
     display: flex;
     flex-direction: column;
@@ -27,27 +21,59 @@
   .artist-image {
     display: none;
   }
-  header {
-    padding: 10px;
+  .sign-in {
+    display: none;
   }
-}
-@media (max-width: 768px) {
-  .title {
-    width: 90%;
+  .sw, .sb {
+    font-size: larger;
   }
-  .title h1 {
-    margin-top: 60px;
+  footer {
+    height: 90vh;
+  }
+  footer .footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  footer .compay {
+    width: 30%;
+  }
+  footer .navigation {
+    width: 30%;
+  }
+  footer .quick-link {
+    width: 30%;
+  }
+  footer .services {
+    width: 30%;
+  }
+  footer .content-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .content-footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .content-footer .footer-content .footer-location {
+    width: 30%;
+  }
+  footer .content-footer .footer-content .footer-contact {
+    width: 30%;
+  }
+  footer .content-footer .footer-content .footer-email {
+    width: 30%;
+  }
+  footer .content-footer .footer-content .footer-social {
+    width: 30%;
   }
 }
 @media (max-width: 768px) and (max-width: 1023px) {
-  .titles h1, .titles h3 {
-    margin-top: 50px;
-  }
   .header-bar {
     width: 100%;
   }
   header {
-    height: 20vh;
+    height: 10vh;
     width: 100%;
   }
   .main {
@@ -165,79 +191,29 @@
     width: 30%;
   }
 }
-@media (max-width: 320px) and (max-width: 480px) {
-  .header-bar {
-    width: 100%;
-  }
-  header {
-    height: 20vh;
-    width: 100%;
-  }
-  .main {
-    display: flex;
-    flex-direction: column;
-  }
-  .main .main-top {
-    height: 190vh;
-    display: flex;
-    flex-direction: column;
-  }
-  .main .main-top .main-intro .history {
-    box-shadow: none;
-    border: none;
-  }
-  .main .main-top .main-intro .history:hover {
+@media (min-width: 320px) and (max-width: 480px) {
+  .get-start {
     display: none;
   }
-  .main .main-top .main-intro .history h1 {
-    font-size: 24px;
-  }
-  .main .main-top .main-team .influen {
-    box-shadow: none;
-    border: none;
-  }
-  .main .main-top .main-team .influen:hover {
+  .sign-in {
     display: none;
   }
-  .main .main-top .main-team .influen h1 {
-    font-size: 24px;
+  .sw, .sb {
+    font-size: larger;
   }
-  .main-view-content {
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+  .nav-bar {
+    margin-top: 10px;
   }
-  .main-view-content .main-about {
-    width: 50%;
+  nav {
+    margin-top: 10px;
   }
-  .main-view-content .main-about img {
-    height: 50px;
-    width: 40px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .sign-in {
+    display: none;
   }
-  .instrument {
-    height: 400vh;
-    display: flex;
-    flex-direction: column;
-  }
-  .instrument .main-video {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .instrument .main-video .video1 {
-    width: 20%;
-  }
-  .main-member {
-    height: 290vh;
-    display: flex;
-    flex-direction: column;
-  }
-  .main-member .member0 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .sw, .sb {
+    font-size: larger;
   }
 }
 .menu-bar {
@@ -457,7 +433,7 @@ ul {
 a {
   color: white;
   text-decoration: none;
-  position: relative; /* Required for the underline effect on hover */
+  position: relative;
 }
 a.home::after {
   content: "";
@@ -518,14 +494,14 @@ a:hover::after {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-12px); /* Move the image up */
+    transform: translateY(-12px);
   }
   100% {
-    transform: translateY(0); /* Move the image back down */
+    transform: translateY(0);
   }
 }
 .get-start img.jump {
-  animation: jump 0.9s ease-in-out infinite; /* Apply the animation */
+  animation: jump 0.9s ease-in-out infinite;
 }
 
 .sign-in {
@@ -556,7 +532,6 @@ a:hover::after {
   vertical-align: middle;
 }
 
-/* Custom Select Dropdown */
 .custom-select {
   position: relative;
   display: inline-block;

@@ -20,7 +20,7 @@ ul {
 a {
   color: white;
   text-decoration: none;
-  position: relative; /* Required for the underline effect on hover */
+  position: relative; 
 
   &.home::after {
     content: '';
@@ -76,15 +76,15 @@ a {
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-12px); /* Move the image up */
+      transform: translateY(-12px); 
     }
     100% {
-      transform: translateY(0); /* Move the image back down */
+      transform: translateY(0); 
     }
   }
 
   img.jump {
-    animation: jump 0.90s ease-in-out infinite; /* Apply the animation */
+    animation: jump 0.90s ease-in-out infinite; 
   }
 }
 
@@ -112,7 +112,7 @@ a {
   vertical-align: middle;
 }
 
-/* Custom Select Dropdown */
+
 .custom-select {
   position: relative;
   display: inline-block;
