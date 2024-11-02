@@ -2,9 +2,6 @@
     .get-start{
         display: none;
     }
-    header{
-        padding: 1px;
-    }
     .contain{
       display: flex;
       flex-direction: column;
@@ -18,21 +15,26 @@
   .sw,.sb{
     font-size:larger;
   }
+  .thumbnail{
+    margin-left: 17px;
+  }
   footer{
-    height: 90vh;
+    height: 100vh;
+    margin-bottom: 30px;
     .footer{
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
     }
     .compay{
-        width: 30%;
+      width: 30%;
     }
     .navigation{
         width: 30%;
     }
     .quick-link{
-        width: 30%;
+      margin-right: 84px;
+      width: 30%;
     }
     .services{
         width: 30%;
@@ -44,16 +46,21 @@
             display: flex;
             flex-wrap: wrap;
             .footer-location{
-                width: 30%;
+              margin-right: 60px;
+              width: 30%;
             }
             .footer-contact{
-                width: 30%;
+              width: 30%;
             }
             .footer-email{
-                width: 30%;
+              margin-right: 60px;
+              width: 30%;
             }
             .footer-social{
-                width: 30%;
+              width: 30%;
+            }
+            .footer.bottom{
+              margin-bottom: 50px;
             }
         }
        
@@ -61,6 +68,58 @@
   }
 }
 
-@media (max-width: 768px){
+
+//Tablete//
+@media (min-width: 768px)and (max-width:1023px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+  footer{
+    height: 60vh;
+    .footer{
+        display: flex;
+        gap: 30px;
+    }
+    .compay{
+      width: 30%;
+    }
+    .navigation{
+        width: 30%;
+    }
+    .quick-link{
+      margin-left: 26px;
+      width: 30%;
+    }
+    .services{
+      margin-right: 30px;
+        width: 30%;
+    }
+    .content-footer{
+        display: flex;
+        flex-direction: column;
+        .footer-content{
+            display: flex;
+            flex-wrap: wrap;
+            .footer-location{
+              margin-left: 8px;
+              width: 30%;
+            }
+            .footer-contact{
+              width: 30%;
+            }
+            .footer-email{
+              margin-left: 8px;
+              width: 30%;
+            }
+            .footer-social{
+              width: 30%;
+            }
+            .footer.bottom{
+              margin-bottom: 50px;
+            }
+        }
+       
+    }
+  }
 }
 

@@ -143,8 +143,88 @@
   }
   .nav-bar{
     margin-top: 10px;
+    margin-left: 10px;
   }
   nav{
    margin-top: 10px;
+   margin-right: 10px;
   }
+  .main{
+    display: flex;
+    flex-direction: column;
+    .main-top{
+        height: 190vh;
+        display: flex;
+        flex-direction: column;
+        .main-intro{
+            .history{
+                box-shadow: none;
+                border: none;
+                &:hover{
+                    display: none;
+                }
+                h1{
+                    font-size: 24px;
+                }
+            }
+        }
+        .main-team{
+            height: 50vh;
+            .influen{
+                box-shadow: none;
+                border: none;
+                &:hover{
+                    display: none;
+                }
+                h1{
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+.main-view-content{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    .main-about{
+        width: 50%;
+        img{
+            height: 50px;
+            width: 40px;
+        }
+    }
+    
+}
+.instrument{
+    height: 280vh;
+    display: flex;
+    flex-direction:column;
+    .main-video{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .video1{
+            width: 60%;
+        }
+    }
+}
+.main-member{
+    height: 266vh;
+    display: flex;
+    flex-direction: column;
+    
+        .member0{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .member1{
+                height: 55vh;
+                width: 60%;
+            }
+        }
+    }
 }

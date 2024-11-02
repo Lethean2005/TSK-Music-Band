@@ -142,9 +142,85 @@
   }
   .nav-bar {
     margin-top: 10px;
+    margin-left: 10px;
   }
   nav {
     margin-top: 10px;
+    margin-right: 10px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .main-top {
+    height: 190vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .main .main-top .main-intro .history {
+    box-shadow: none;
+    border: none;
+  }
+  .main .main-top .main-intro .history:hover {
+    display: none;
+  }
+  .main .main-top .main-intro .history h1 {
+    font-size: 24px;
+  }
+  .main .main-top .main-team {
+    height: 50vh;
+  }
+  .main .main-top .main-team .influen {
+    box-shadow: none;
+    border: none;
+  }
+  .main .main-top .main-team .influen:hover {
+    display: none;
+  }
+  .main .main-top .main-team .influen h1 {
+    font-size: 24px;
+  }
+  .main-view-content {
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+  }
+  .main-view-content .main-about {
+    width: 50%;
+  }
+  .main-view-content .main-about img {
+    height: 50px;
+    width: 40px;
+  }
+  .instrument {
+    height: 280vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .instrument .main-video {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .instrument .main-video .video1 {
+    width: 60%;
+  }
+  .main-member {
+    height: 266vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-member .member0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-member .member0 .member1 {
+    height: 55vh;
+    width: 60%;
   }
 }
 .head-bar {
@@ -583,6 +659,7 @@ footer .footer {
   text-align: start;
 }
 footer .footer .company {
+  margin-top: 46px;
   max-width: 200px;
 }
 footer .footer .company .img {
@@ -706,9 +783,6 @@ footer .content-footer .footer-bottom {
   .get-start {
     display: none;
   }
-  header {
-    padding: 1px;
-  }
   .contain {
     display: flex;
     flex-direction: column;
@@ -722,8 +796,12 @@ footer .content-footer .footer-bottom {
   .sw, .sb {
     font-size: larger;
   }
+  .thumbnail {
+    margin-left: 17px;
+  }
   footer {
-    height: 90vh;
+    height: 100vh;
+    margin-bottom: 30px;
   }
   footer .footer {
     display: flex;
@@ -737,6 +815,7 @@ footer .content-footer .footer-bottom {
     width: 30%;
   }
   footer .quick-link {
+    margin-right: 84px;
     width: 30%;
   }
   footer .services {
@@ -751,16 +830,72 @@ footer .content-footer .footer-bottom {
     flex-wrap: wrap;
   }
   footer .content-footer .footer-content .footer-location {
+    margin-right: 60px;
     width: 30%;
   }
   footer .content-footer .footer-content .footer-contact {
     width: 30%;
   }
   footer .content-footer .footer-content .footer-email {
+    margin-right: 60px;
     width: 30%;
   }
   footer .content-footer .footer-content .footer-social {
     width: 30%;
+  }
+  footer .content-footer .footer-content .footer.bottom {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+  footer {
+    height: 60vh;
+  }
+  footer .footer {
+    display: flex;
+    gap: 30px;
+  }
+  footer .compay {
+    width: 30%;
+  }
+  footer .navigation {
+    width: 30%;
+  }
+  footer .quick-link {
+    margin-left: 26px;
+    width: 30%;
+  }
+  footer .services {
+    margin-right: 30px;
+    width: 30%;
+  }
+  footer .content-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .content-footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .content-footer .footer-content .footer-location {
+    margin-left: 8px;
+    width: 30%;
+  }
+  footer .content-footer .footer-content .footer-contact {
+    width: 30%;
+  }
+  footer .content-footer .footer-content .footer-email {
+    margin-left: 8px;
+    width: 30%;
+  }
+  footer .content-footer .footer-content .footer-social {
+    width: 30%;
+  }
+  footer .content-footer .footer-content .footer.bottom {
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 768px) and (max-width: 1023px) {
@@ -898,9 +1033,85 @@ footer .content-footer .footer-bottom {
   }
   .nav-bar {
     margin-top: 10px;
+    margin-left: 10px;
   }
   nav {
     margin-top: 10px;
+    margin-right: 10px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .main-top {
+    height: 190vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .main .main-top .main-intro .history {
+    box-shadow: none;
+    border: none;
+  }
+  .main .main-top .main-intro .history:hover {
+    display: none;
+  }
+  .main .main-top .main-intro .history h1 {
+    font-size: 24px;
+  }
+  .main .main-top .main-team {
+    height: 50vh;
+  }
+  .main .main-top .main-team .influen {
+    box-shadow: none;
+    border: none;
+  }
+  .main .main-top .main-team .influen:hover {
+    display: none;
+  }
+  .main .main-top .main-team .influen h1 {
+    font-size: 24px;
+  }
+  .main-view-content {
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+  }
+  .main-view-content .main-about {
+    width: 50%;
+  }
+  .main-view-content .main-about img {
+    height: 50px;
+    width: 40px;
+  }
+  .instrument {
+    height: 280vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .instrument .main-video {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .instrument .main-video .video1 {
+    width: 60%;
+  }
+  .main-member {
+    height: 266vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-member .member0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-member .member0 .member1 {
+    height: 55vh;
+    width: 60%;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
