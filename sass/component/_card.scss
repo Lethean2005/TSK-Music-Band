@@ -19,7 +19,6 @@
   display: flex;
   margin-top: 20px;
 }
-
 form {
   padding: 10px;
   width: 68%;
@@ -54,7 +53,6 @@ input {
     margin-top: 15px;
   }
 }
-
 textarea {
   outline: none;
   background-color: rgba(192, 226, 255, 0.582);
@@ -62,7 +60,6 @@ textarea {
   margin-top: 15px;
   border: none;
 }
-
 .btn {
   margin-top: 15px;
   width: 20%;
@@ -73,7 +70,6 @@ textarea {
   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(192,70,252,1) 100%);
   color: white;
 }
-
 .card-img {
   background-color: black;
   z-index: -1;
@@ -86,7 +82,6 @@ textarea {
   background: rgb(34,193,195);
   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(163,44,227,0.636467086834734) 100%);
 }
-
 .card-he {
   color: white;
   padding: 10px;
@@ -114,7 +109,6 @@ textarea {
     border-radius: 20px;
     outline: none;
   }
-
   button {
     padding: 10px;
     background: rgb(63,94,251);
@@ -124,7 +118,6 @@ textarea {
     border-radius: 20px;
   }
 }
-
 .icon {
   display: flex;
   justify-content: center;
@@ -148,32 +141,27 @@ textarea {
   text-align: center;
   border: 2px solid rgb(223, 223, 223);
 }
-
 .card1 {
   margin-right: 10vh;
   background: rgb(34,193,195);
   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(163,44,227,0.636467086834734) 100%);
   color: white;
 }
-
 .card2 {
   background: rgb(34,195,152);
   background: linear-gradient(0deg, rgba(34,195,152,1) 0%, rgba(80,44,227,0.4543942577030813) 100%);
   color: white;
 }
-
 .card3 {
   background: rgb(34,195,152);
   background: linear-gradient(0deg, rgba(34,195,152,1) 0%, rgba(166,44,227,0.7008928571428572) 100%);
   margin-left: 10vh;
   color:$dark-text-color;
 }
-
 h1 {
   display: flex;
   justify-content: center;
 }
-
 .img-map {
   padding: 20px;
   iframe{

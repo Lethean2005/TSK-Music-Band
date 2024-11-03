@@ -12,38 +12,37 @@
         display: flex;
         flex-direction: column;
         .main-top{
-            height: 100vh;
+            height: 120vh;
             display: flex;
             flex-direction: column;
             .main-intro{
                 .history{
-                    box-shadow: none;
-                    border: none;
-                    &:hover{
-                        display: none;
-                    }
+                    height: 50vh;
                     h1{
                         font-size: 24px;
+                    }
+                    p{
+                        font-size: 22px;
                     }
                 }
             }
             .main-team{
                 .influen{
-                    box-shadow: none;
-                    border: none;
-                    &:hover{
-                        display: none;
-                    }
+                    height: 50vh;
                     h1{
                         font-size: 24px;
+                    }
+                    p{
+                        font-size: 22px;
                     }
                 }
             }
         }
     }
     .main-view-content{
-        height: 30vh;
+        height: 50vh;
         display: flex;
+        align-items: center;
         flex-wrap: wrap;
         flex-direction: row;
         .main-about{
@@ -56,7 +55,7 @@
         
     }
     .instrument{
-        height: 110vh;
+        height: 120vh;
         display: flex;
         flex-direction: column;
         .main-video{
@@ -89,7 +88,7 @@
         }
     }
     footer{
-        height: 90vh;
+        height: 80vh;
         .footer{
             display: flex;
             flex-wrap: wrap;
@@ -153,29 +152,20 @@
     display: flex;
     flex-direction: column;
     .main-top{
-        height: 190vh;
+        height:fit-content;
         display: flex;
         flex-direction: column;
         .main-intro{
             .history{
-                box-shadow: none;
-                border: none;
-                &:hover{
-                    display: none;
-                }
+                height:fit-content;
                 h1{
                     font-size: 24px;
                 }
             }
         }
         .main-team{
-            height: 50vh;
             .influen{
-                box-shadow: none;
-                border: none;
-                &:hover{
-                    display: none;
-                }
+                height:fit-content;
                 h1{
                     font-size: 24px;
                 }
@@ -184,7 +174,7 @@
     }
 }
 .main-view-content{
-    height: 50vh;
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -199,7 +189,8 @@
     
 }
 .instrument{
-    height: 280vh;
+    height:fit-content;
+    padding: 10px;
     display: flex;
     flex-direction:column;
     .main-video{
@@ -208,11 +199,13 @@
         gap: 20px;
         .video1{
             width: 60%;
+            height: fit-content;
         }
     }
 }
 .main-member{
-    height: 266vh;
+    height: fit-content;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     
