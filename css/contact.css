@@ -79,6 +79,16 @@
   .container {
     grid-template-columns: 1fr 1fr;
   }
+  .contain {
+    display: flex;
+    flex-direction: column;
+  }
+  .contain #music {
+    margin-top: 30px;
+  }
+  .contain #playlist {
+    margin-top: 50px;
+  }
   footer {
     height: 60vh;
   }
@@ -139,33 +149,32 @@
     flex-direction: column;
   }
   .main .main-top {
-    height: 100vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
   }
   .main .main-top .main-intro .history {
-    box-shadow: none;
-    border: none;
-  }
-  .main .main-top .main-intro .history:hover {
-    display: none;
+    height: 50vh;
   }
   .main .main-top .main-intro .history h1 {
     font-size: 24px;
   }
-  .main .main-top .main-team .influen {
-    box-shadow: none;
-    border: none;
+  .main .main-top .main-intro .history p {
+    font-size: 22px;
   }
-  .main .main-top .main-team .influen:hover {
-    display: none;
+  .main .main-top .main-team .influen {
+    height: 50vh;
   }
   .main .main-top .main-team .influen h1 {
     font-size: 24px;
   }
+  .main .main-top .main-team .influen p {
+    font-size: 22px;
+  }
   .main-view-content {
-    height: 30vh;
+    height: 50vh;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
   }
@@ -177,7 +186,7 @@
     width: 40px;
   }
   .instrument {
-    height: 110vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
   }
@@ -209,7 +218,7 @@
     width: 40%;
   }
   footer {
-    height: 90vh;
+    height: 80vh;
   }
   footer .footer {
     display: flex;
@@ -272,35 +281,28 @@
     flex-direction: column;
   }
   .main .main-top {
-    height: 190vh;
+    height: -moz-fit-content;
+    height: fit-content;
     display: flex;
     flex-direction: column;
   }
   .main .main-top .main-intro .history {
-    box-shadow: none;
-    border: none;
-  }
-  .main .main-top .main-intro .history:hover {
-    display: none;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .main .main-top .main-intro .history h1 {
     font-size: 24px;
   }
-  .main .main-top .main-team {
-    height: 50vh;
-  }
   .main .main-top .main-team .influen {
-    box-shadow: none;
-    border: none;
-  }
-  .main .main-top .main-team .influen:hover {
-    display: none;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .main .main-top .main-team .influen h1 {
     font-size: 24px;
   }
   .main-view-content {
-    height: 50vh;
+    height: -moz-fit-content;
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -314,7 +316,9 @@
     width: 40px;
   }
   .instrument {
-    height: 280vh;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 10px;
     display: flex;
     flex-direction: column;
   }
@@ -325,9 +329,13 @@
   }
   .instrument .main-video .video1 {
     width: 60%;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .main-member {
-    height: 266vh;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 10px;
     display: flex;
     flex-direction: column;
   }
